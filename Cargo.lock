@@ -22,7 +22,7 @@ dependencies = [
  "fnv 1.0.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "font 0.1.0",
  "gl_generator 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "glutin 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "glutin 0.14.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.39 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "mio 0.6.14 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -451,7 +451,7 @@ dependencies = [
 
 [[package]]
 name = "glutin"
-version = "0.13.1"
+version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "android_glue 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -467,7 +467,7 @@ dependencies = [
  "shared_library 0.1.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "wayland-client 0.12.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "winapi 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "winit 0.11.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "winit 0.12.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "x11-dl 2.17.3 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -1312,7 +1312,7 @@ dependencies = [
 
 [[package]]
 name = "winit"
-version = "0.11.2"
+version = "0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "android_glue 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1421,7 +1421,7 @@ dependencies = [
 "checksum getopts 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)" = "b900c08c1939860ce8b54dc6a89e26e00c04c380fd0e09796799bd7f12861e05"
 "checksum gl_generator 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7a795170cbd85b5a7baa58d6d7525cae6a03e486859860c220f7ebbbdd379d0a"
 "checksum gleam 0.4.24 (registry+https://github.com/rust-lang/crates.io-index)" = "8d9997e65a2cfec0f3290a8378652e3aacdb3f19d29a7ca20c11e11ca550eec9"
-"checksum glutin 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)" = "90de8e0391e57098acfbfe693b23065e9186255d370ebae12c933b7d77df8424"
+"checksum glutin 0.14.0 (registry+https://github.com/rust-lang/crates.io-index)" = "5ed2d11d21384aa2e0ad027105a26d93d5ca22c73da4000ddd0ecede89571cf0"
 "checksum humantime 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0484fda3e7007f2a4a0d9c3a703ca38c71c54c55602ce4660c419fd32e188c9e"
 "checksum idna 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)" = "014b298351066f1512874135335d62a789ffe78a9974f94b43ed5621951eaf7d"
 "checksum if_chain 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "61bb90bdd39e3af69b0172dfc6130f6cd6332bf040fbb9bdd4401d37adbd48b8"
@@ -1528,7 +1528,7 @@ dependencies = [
 "checksum winapi-i686-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
 "checksum winapi-x86_64-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 "checksum wincolor 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "eeb06499a3a4d44302791052df005d5232b927ed1a9658146d842165c4de7767"
-"checksum winit 0.11.2 (registry+https://github.com/rust-lang/crates.io-index)" = "396f0350e661940359e3c8c7d58ff847f67997943e2c80ecac374c5aa8287f63"
+"checksum winit 0.12.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a282d348b2a57f74617972c08dda0ff74a7383c9fe4f861a882e6fbba46a6521"
 "checksum ws2_32-sys 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d59cefebd0c892fa2dd6de581e937301d8552cb44489cdff035c6187cb63fa5e"
 "checksum x11-dl 2.17.3 (registry+https://github.com/rust-lang/crates.io-index)" = "29e78a65a3239e5511ffe2c832edb9224982ebf67bcaabc218ef1b07d8494b3e"
 "checksum xdg 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a66b7c2281ebde13cf4391d70d4c7e5946c3c25e72a7b859ca8f677dcd0b0c61"
